@@ -1,0 +1,7 @@
+pytelegrambotapi
+youtube-search
+wget
+telebot
+user-agent
+spotipy
+flask
