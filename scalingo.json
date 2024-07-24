@@ -1,0 +1,44 @@
+{
+    "name": "downloader bot",
+    "stack": "scalingo-22",
+    "description": "A telegram bot for download !",
+    "logo": "https://telegra.ph/file/5474e57ebcbfc6042c7b5.jpg",
+    "repository": "https://github.com/h0-qp/downloader-subscribe",
+    "website": "https://telegram.me/cn_world",
+    "env": {
+        "API_ID": {
+            "description": "api_id",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "api_hash",
+            "value": ""
+        },
+        "DATABASE_NAME": {
+            "description": "your Database Name",
+            "value": ""
+        },
+        "TOKEN": {
+            "description": "your token bot",
+            "value": ""
+        },
+        "CH_ID": {
+        	"description": "your channel id",
+        	"value": ""
+        },
+        "CHANNEL_POSTS": {
+    	    "description": "UserName for forward (channel, group, yours)",
+        	"value": ""
+        },
+        "DEV": {
+	        "description": "Your ID",
+	        "value": ""
+	    }
+    },
+    "formation": {
+        "web": {
+            "amount": 1,
+            "size": "S"
+        }
+    }
+}
