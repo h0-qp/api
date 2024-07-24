@@ -766,4 +766,4 @@ def cound_c():
 
 if __name__ == "__main__":
 	#media.run()
-    app.run(host='0.0.0.0', port=8080)
+    app.run()
