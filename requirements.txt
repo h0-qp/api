@@ -5,6 +5,5 @@ telebot
 user-agent
 spotipy
 flask
-base64
 bs4
 html
